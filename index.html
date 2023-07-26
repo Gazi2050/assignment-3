@@ -59,7 +59,7 @@
                     <li class="visible md:invisible"><a>Search</a></li>
                 </ul>
             </div>
-            <ul class="menu menu-horizontal px-6 hidden lg:inline-flex">
+            <ul class="menu menu-horizontal px-6 text-white hidden lg:inline-flex">
                 <li><a>Home</a></li>
                 <li><a>About Us</a></li>
                 <li><a>Shop</a></li>
@@ -90,6 +90,53 @@
         </div>
     </div>
     <!-- navbar-end -->
+
+    <!-- header-start -->
+    <div class="carousel w-full relative rounded mt-3">
+        <div id="slide1" class="carousel-item relative w-full">
+            <img src="images/banner1.png" class="w-full" />
+            <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div
+                class="carousel-content absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white text-center">
+                <h2 class="font-extrabold text-7xl">Exotic tastes at your<br> doorstep</h2>
+                <p class="text-xl font-medium mt-6">We supply highly quality organic products</p>
+                <button class="btn border-none mt-6 bg-[#F85559]">Shop Now</button>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+            <img src="images/banner2.png" class="w-full" />
+            <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div
+                class="carousel-content absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
+                <h2>Slide 2 Title</h2>
+                <p>Slide 2 description goes here.</p>
+                <button class="btn btn-error">Submit</button>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+            <img src="images/banner3.png" class="w-full" />
+            <div class="overlay absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+            <div
+                class="carousel-content absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center text-white">
+                <h2>Slide 3 Title</h2>
+                <p>Slide 3 description goes here.</p>
+                <button class="btn btn-error">Submit</button>
+            </div>
+            <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+    </div>
+    <!-- header-end -->
 </body>
 
 </html>
